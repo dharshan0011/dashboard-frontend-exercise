@@ -24,9 +24,9 @@ const Home: NextPage = () => {
         <div className='flex justify-end'>
           <div className='flex items-center gap-[25px] mb-[59px]'>
             <p>22 Feb 2022</p>
-            <div className='w-[53px] h-[54px] bg-[#E5E9FA] rounded-[12px] flex items-center justify-center'>
+            <button className='w-[53px] h-[54px] bg-[#E5E9FA] rounded-[12px] flex items-center justify-center'>
               <Image src={SearchIcon} width={18} height={18} alt='search' />
-            </div>
+            </button>
           </div>
         </div>
         <WelcomeBanner />

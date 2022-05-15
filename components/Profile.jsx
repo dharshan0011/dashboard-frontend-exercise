@@ -11,7 +11,9 @@ const Profile = () => {
     <aside className='bg-[#fff] flex flex-col items-center pl-[45px] pt-[57px] pr-10'>
       <div className='flex justify-between w-full'>
         <p>Logout</p>
-        <Image src={LogoutIcon} hidden={18} width={18} alt='logout' />
+        <a href='#'>
+          <Image src={LogoutIcon} hidden={18} width={18} alt='logout' />
+        </a>
       </div>
       <div className='text-center'>
         <div className='rounded-full border-[7px] border-[#F5F5FB] w-[169px] h-[171px] relative mt-[48px]'>
@@ -36,7 +38,7 @@ const Profile = () => {
         </h3>
         <p className='text-secondary-text mt-[12px]'>Student</p>
       </div>
-      <div className='mt-[64px]'>
+      <div className='mt-[44px]'>
         <Card
           cardType='primary'
           src={TextAvatarDarkIcon}
@@ -54,7 +56,7 @@ const Profile = () => {
           progress={80}
         />
       </div>
-      <div className='mt-[172px]'>
+      <div className='mt-[124px]'>
         <Card
           cardType='primary'
           src={ErrorIcon}

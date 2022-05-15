@@ -10,7 +10,7 @@ import NavLink from 'components/NavLink'
 
 const Sidenav = () => {
   return (
-    <nav className='grid grid-rows[1fr_2fr_1fr] h-[100vh] pt-[48px] pb-[51px] w-full bg-[#fff] fixed w-[321px]'>
+    <nav className='grid grid-rows[1fr_2fr_1fr] h-[100vh] pt-[48px] pb-[51px] w-full bg-[#fff] fixed w-[321px] z-30'>
       <div className='pl-[89px]'>
         <a href='#'>
           <Image src='/logo.png' width={184} height={45} alt='Stringle logo' />

@@ -7,9 +7,9 @@ const Results = () => {
     <article className='max-w-[430px] bg-[#FDFDFE] rounded-[17px] p-[32px] pb-[8px]'>
       <div className='flex justify-between '>
         <p className='text-[17px] font-medium'>Latest results</p>
-        <p className='flex items-center gap-[21px]'>
+        <a href='#' className='flex items-center gap-[21px]'>
           More <Image src={RightArrowDark} width={16} height={16} alt='more' />
-        </p>
+        </a>
       </div>
       <div>
         <ResultScore unitNumber={5} name='Technology' score={25} />

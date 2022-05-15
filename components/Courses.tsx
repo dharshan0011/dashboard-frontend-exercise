@@ -8,11 +8,11 @@ const Courses = () => {
     <section className='mt-[36px]'>
       <div className='flex justify-between'>
         <p className='text-[17px] font-medium'>Your courses</p>
-        <p className='flex items-center gap-[21px]'>
+        <a href='#' className='flex items-center gap-[21px]'>
           More <Image src={RightArrowDark} width={16} height={16} alt='more' />
-        </p>
+        </a>
       </div>
-      <div className='mt-[35px] flex justify-between'>
+      <div className='mt-[35px] flex justify-between gap-[24px]'>
         <Card
           cardType='secondary'
           heading='Business English'
