@@ -8,7 +8,7 @@ const WelcomeBanner = () => {
         <h3 className='font-bold text-[#FF808B] text-[25px]'>
           Welcome back Anna!
         </h3>
-        <p className='text-[#000] text-[18px] leading-[27px] mt-[54px]'>
+        <p className='text-[#000] text-[18px] leading-[27px] mt-[27px]'>
           You’ve learned 80% of your goal this week! <br />
           Keep it up and improve your results!
         </p>
